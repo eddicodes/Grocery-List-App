@@ -1,0 +1,97 @@
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Abril Fatface', cursive; */
+
+body {
+    margin: 0;
+}
+#horizontal-menu {
+      /* AB Farbe angepasst */
+    background-color:rgb(84, 194, 119);
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 45% 45% 45%;
+    overflow-x: scroll;
+    gap: 5%;
+}
+.category{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+      /* AB Farbe + Rahmen angepasst */
+    background-color: #ffffff ;
+    border-radius: 10px;
+}
+/* AB H3 Style hinzugefügt */
+h3{
+    color: #f7aa04;
+    margin: 5% auto 5% auto;
+    width: 80%;
+    text-align: center;
+    font-size:80%;
+    font-family: 'Abril Fatface', cursive;
+}
+/* AB #obst Stlye hinzugefügt */
+#obst{
+    width: 60%;
+    font-size: 80% ;
+    margin: 0 auto 0 auto;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    padding-left: 2%;
+}
+.category img {
+    /* AB Margin angepasst */
+    margin: 7% auto 0 auto;
+    width: 60%;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 5px black;
+}
+.category input{
+    border: 1px solid grey;
+}
+
+/* SELECT FIELD - PIECES / WEIGHT */
+.category select {
+    border: 1px solid grey;
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+/* INPUT FIELD - #PIECES */
+/* AB changed Style below */
+.category input[type=number] {
+    width: 50%;
+    border-radius: 5px;
+    margin: 3% auto;
+    border-color:grey;
+    display: block;
+    padding-left: 5%;
+}
+
+/* ADD TO LIST BUTTON */
+.category input[type=button] {
+    width: fit-content;
+    margin: 0 auto;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    background-color: #f7aa04;
+    margin: 3% auto;
+    color: #ffffff;
+}
+#list {
+    /* AB Farbe angepasst */
+        background-color: rgb(69, 145, 167);
+    padding-top: 3%;
+    border-top: 1px solid black;
+}
+#list-table {
+    display: grid;
+    grid-template-columns: 10% 50% 20% 20%;
+}
+#list-table p {
+    border: 1px solid black;
+    margin: 0;
+    text-align: center;
+}

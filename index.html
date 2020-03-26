@@ -5,13 +5,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grocery List App</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Oswald&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- Supercode Gruppenarbeit -->
-    <!-- Ariane's Code -->
-    <!-- New Comment -->
-    <!-- Hallo zusammen - Test -->
+    <!-- Mohammads Code als Basis (Stand: 2nd commit) -->
+    <section id="horizontal-menu">
+        <article class="category-obst category">
+            <!-- ÄNDERUNG AB: Bild gewechselt unten -->
+            <img src="/assets/img/apple_icon.png" alt="">
+            <!-- ÄNDERUNG AB ZEILE UNTEN -->
+            <h3>OBST <br> GEMÜSE</h3>
+            <select name="obst" id="obst">
+                <option value="apfel">Apfel </option>
+                <option value="banana">Banana</option>
+                <option value="orange">Orange</option>
+            </select>
+            <div class="amount-container">
+                <input type="number" class="amount-number">
+                <select name="amount" class="amount-unit">
+                    <option value="stk">Stück</option>
+                    <option value="kg">Kilogramm</option>
+                </select>
+            </div>
+            <input type="button" value="Hinzufügen" onclick="addObst()">
+        </article>
+        <article class="category-obst category">
+            <!-- ÄNDERUNG AB: Bild gewechselt unten -->
+            <img src="assets/img/milk_icon.jpg" alt="">
+            <!-- ÄNDERUNG AB ZEILE UNTEN -->
+            <h3>MILCH <br> PRODUKTE</h3>
+            <select name="obst" id="obst">
+                <option value="apfel">Apfel </option>
+                <option value="banana">Banana</option>
+                <option value="orange">Orange</option>
+            </select>
+            <div class="amount-container">
+                <input type="number">
+                <select name="amount" class="amount">
+                    <option value="stk">Stück</option>
+                    <option value="kg">Kilogramm</option>
+                </select>
+            </div>
+            <input type="button" value="Hinzufüge">
+        </article>
+        <article id="categories" class="category-obst category">
+            <!-- ÄNDERUNG AB: Bild gewechselt unten -->
+            <img src="assets/img/water_icon.png" alt="">
+            <!-- ÄNDERUNG AB ZEILE UNTEN -->
+            <h3>GETRÄNKE</h3>
+            <select name="obst" id="obst">
+                <option value="apfel">Apfel </option>
+                <option value="banana">Banana</option>
+                <option value="orange">Orange</option>
+            </select>
+            <div class="amount-container">
+                <input type="number">
+                <select name="amount" class="amount">
+                    <option value="stk">Stück</option>
+                    <option value="kg">Kilogramm</option>
+                </select>
+            </div>
+            <input type="button" value="Hinzufüge">
+        </article>
+    </section>
+
+
+
+    <section id="list">
+        <article id="list-table">
+            <p>Line</p>
+            <p>Information</p>
+            <p>Amount</p>
+            <p>Unit</p>
+        </article>
+    </section>
+
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
