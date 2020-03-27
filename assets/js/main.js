@@ -1,9 +1,9 @@
 var listRow = 1
 var listDisplay = false
 function addList(category, x) {
-
     console.log(x)
-    var obst = document.getElementById(category).value;
+    console.log(category)
+    var item = document.getElementById(category).value;
     var amount = document.getElementsByClassName("amount-number")[x].value;
     if (amount == "") {
         alert("Geben Sie bitte eine Menge an")
@@ -19,7 +19,7 @@ function addList(category, x) {
         line.innerHTML = listRow;
         listRow++
         var listItem = document.createElement("p");
-        listItem.innerHTML = ("Obst - " + obst);
+        listItem.innerHTML = (category + " - " + item);
         var listAmount = document.createElement("p");
         listAmount.innerHTML = amount;
         var listUnit = document.createElement("p");
@@ -32,5 +32,6 @@ function addList(category, x) {
 }
 function imageChanger(category, y) {
     var z = document.getElementById(category).value;
+    console.log(z)
     var image = document.getElementsByClassName("image")[y].src = `assets/img/${z}_icon.png`;
 }

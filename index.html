@@ -11,14 +11,18 @@
 
 
 
+
+
+
     <section id="horizontal-menu">
         <article class="category-obst category">
-            <img src="assets/img/apple_icon.png" alt="" class="image">
-            <h3>OBST</h3>
-            <select name="obst" id="obst" onchange="imageChanger('obst',0)">
-                <option value="apple">Apfel </option>
-                <option value="banana">Banana</option>
-                <option value="orange">Orange</option>
+            <img src="assets/img/Äpfel_icon.png" alt="" class="image">
+            <h3>OBST & GEMÜSE</h3>
+            <select name="Obst" id="Obst" onchange="imageChanger('Obst',0)">
+                <option value="Äpfel">Äpfel </option>
+                <option value="Bananen">Bananen</option>
+                <option value="Karotten">Karotten</option>
+                <option value="Kartoffeln">Kartoffeln</option>
             </select>
             <div class="amount-container">
                 <input type="number" class="amount-number">
@@ -27,15 +31,17 @@
                     <option value="kg">Kilogramm</option>
                 </select>
             </div>
-            <input type="button" value="ADD TO LIST" onclick="addList('obst',0)">
+            <input type="button" value="ADD TO LIST" onclick="addList('Obst',0)">
         </article>
-        <article class="category-brot category">
-            <img src="https://unsplash.it/100" alt="">
-            <h3>Brot</h3>
-            <select name="brot" id="brot">
-                <option value="apple">Apfel </option>
-                <option value="banana">Banana</option>
-                <option value="orange">Orange</option>
+
+        <article class="category-milk category">
+            <img src="assets/img/Milch_icon.png" alt="" class="image">
+            <h3>MILCHPRODUKTE</h3>
+            <select name="Milchprodukte" id="Milchprodukte" onchange="imageChanger('Milchprodukte',1)">
+                <option value="Milch">Milch </option>
+                <option value="Joghurt">Joghurt</option>
+                <option value="Butter">Butter</option>
+                <option value="Käse">Käse</option>
             </select>
             <div class="amount-container">
                 <input type="number" class="amount-number">
@@ -44,15 +50,17 @@
                     <option value="kg">Kilogramm</option>
                 </select>
             </div>
-            <input type="button" value="ADD TO LIST" onclick="addList('brot',1)">
+            <input type="button" value="ADD TO LIST" onclick="addList('Milchprodukte',1)">
         </article>
-        <article id="categories" class="category-gemuse category">
-            <img src="https://unsplash.it/100" alt="">
-            <h3>Gemüse</h3>
-            <select name="gemuse" id="gemuse">
-                <option value="apfel">Apfel </option>
-                <option value="banana">Banana</option>
-                <option value="orange">Orange</option>
+
+        <article id="categories" class="category-drink category">
+            <img src="assets/img/Bier_icon.png" alt="" class="image">
+            <h3>GETRÄNKE</h3>
+            <select name="Getränke" id="Getränke" onchange="imageChanger('Getränke',2)">
+                <option value="Bier">Bier </option>
+                <option value="Mineralwasser">Mineralwasser still</option>
+                <option value="Orangensaft">Orangensaft</option>
+                <option value="Rotwein">Rotwein</option>
             </select>
             <div class="amount-container">
                 <input type="number" class="amount-number">
@@ -61,7 +69,25 @@
                     <option value="kg">Kilogramm</option>
                 </select>
             </div>
-            <input type="button" value="ADD TO LIST" onclick="addList('gemuse',2)">
+            <input type="button" value="ADD TO LIST" onclick="addList('Getränke',2)">
+        </article>
+
+        <article id="categories" class="category-meat category">
+            <img src="assets/img/Rindfleisch_icon.png" alt="" class="image">
+            <h3>GETRÄNKE</h3>
+            <select name="Fleisch" id="Fleisch" onchange="imageChanger('Fleisch',3)">
+                <option value="Rindfleisch">Rindfleisch </option>
+                <option value="Schweinefleisch">Schweinefleisch</option>
+                <option value="Wurst">Wurst</option>
+            </select>
+            <div class="amount-container">
+                <input type="number" class="amount-number">
+                <select name="amount" class="amount-unit">
+                    <option value="stk">Stück</option>
+                    <option value="kg">Kilogramm</option>
+                </select>
+            </div>
+            <input type="button" value="ADD TO LIST" onclick="addList('Fleisch',3)">
         </article>
     </section>
 
@@ -75,6 +101,7 @@
             <p>Unit</p>
         </article>
     </section>
+
 
 
     <script src="assets/js/main.js"></script>
