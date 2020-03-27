@@ -6,7 +6,7 @@ body {
 }
 #horizontal-menu {
       /* AB Farbe angepasst */
-    background-color:#014945;
+    background-color:#eff1f4;
     padding: 2%;
     display: grid;
     grid-template-columns: 45% 45% 45%;
@@ -17,12 +17,10 @@ body {
     display: flex;
     width: 80%;
     flex-direction: column;
-      /* AB Farbe + Rahmen angepasst */
     border-radius: 10px;
 }
-/* AB H3 Style hinzugefügt */
 h3{
-    color: #eba72f;
+    color: #493bc2;
     margin: 5% auto 5% auto;
     width: 80%;
     text-align: center;
@@ -37,8 +35,8 @@ h3{
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
     padding-left: 2%;
-    background-color: #fbeae7;
-    color: #112041;
+    background-color: #b4b7c9;
+    color: #2812b0;
 }
 .category img {
     /* AB Margin angepasst */
@@ -49,17 +47,17 @@ h3{
     box-shadow: 0 0 5px black;
 }
 .category input{
-    border: 1px solid #b6abaa;
+    border: 1px solid #b4b7c9;
 }
 
 /* SELECT FIELD - PIECES / WEIGHT */
 .category select {
-    border: 1px solid #b6abaa;
+    border: 1px solid #b4b7c9;
     display: block;
     margin: 0 auto;
     width: 60%;
-    background-color: #fbeae7;
-    color: #112041;
+    background-color: #b4b7c9;
+    color: #2812b0;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
 }
@@ -70,11 +68,11 @@ h3{
     width: 50%;
     border-radius: 5px;
     margin: 3% auto;
-    border-color:#b6abaa;
+    border-color:#b4b7c9;
     display: block;
     padding-left: 5%;
-    background-color: #fbeae7;
-    color: #112041;
+    background-color: #b4b7c9;
+    color: #2812b0;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
 }
@@ -83,27 +81,27 @@ h3{
 .category input[type=button] {
     width: fit-content;
     margin: 0 auto;
-    border: 0.5px solid #b6abaa;
+    border: 0.5px solid #cb8688;
     border-radius: 5px;
-    background-color: #eba72f;
+    background-color: #cb8688;
+    color: #eff1f4;
     margin: 3% auto;
-    color: #fbeae7 ;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
 }
 #list {
     /* AB Farbe angepasst */
-        background-color: #fd635b;
+    background-color: #eff1f4;
     padding-top: 3%;
-    border-top: 1px solid black;
-    color: #fbeae7; 
+    /* border-top: 1px solid #b4b7c9; */
+    color: #2812b0;
 }
 #list-table {
     display: grid;
     grid-template-columns: 10% 50% 20% 20%;
 }
 #list-table p {
-    border: 1px solid #c9301b;
+    border: 1px solid #b4b7c9;
     margin: 0;
     text-align: center;
     font-family: 'Oswald', sans-serif;
