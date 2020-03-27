@@ -1,10 +1,10 @@
 var listRow = 1
-function addObst() {
-    var obst = document.getElementById("obst").value;
-    var amount = document.getElementsByClassName("amount-number")[0].value;
-    var unit = document.getElementsByClassName("amount-unit")[0].value;
+function addList(category, x) {
+    console.log(x)
+    var obst = document.getElementById(category).value;
+    var amount = document.getElementsByClassName("amount-number")[x].value;
+    var unit = document.getElementsByClassName("amount-unit")[x].value;
     var displayList = document.getElementById("list-table");
-
     var line = document.createElement("p");
     line.innerHTML = listRow;
     listRow++
@@ -18,9 +18,5 @@ function addObst() {
     displayList.appendChild(listItem);
     displayList.appendChild(listAmount);
     displayList.appendChild(listUnit);
-
-
-
-
 
 }

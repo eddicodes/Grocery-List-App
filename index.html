@@ -27,39 +27,41 @@
                     <option value="kg">Kilogramm</option>
                 </select>
             </div>
-            <input type="button" value="ADD TO LIST" onclick="addObst()">
+            <input type="button" value="ADD TO LIST" onclick="addList('obst',0)">
         </article>
-        <article class="category-obst category">
+        <article class="category-brot category">
             <img src="https://unsplash.it/100" alt="">
-            <select name="obst" id="obst">
+            <h3>Brot</h3>
+            <select name="brot" id="brot">
                 <option value="apfel">Apfel </option>
                 <option value="banana">Banana</option>
                 <option value="orange">Orange</option>
             </select>
             <div class="amount-container">
-                <input type="number">
-                <select name="amount" class="amount">
+                <input type="number" class="amount-number">
+                <select name="amount" class="amount-unit">
                     <option value="stk">Stück</option>
                     <option value="kg">Kilogramm</option>
                 </select>
             </div>
-            <input type="button" value="ADD TO LIST">
+            <input type="button" value="ADD TO LIST" onclick="addList('brot',1)">
         </article>
-        <article id="categories" class="category-obst category">
+        <article id="categories" class="category-gemuse category">
             <img src="https://unsplash.it/100" alt="">
-            <select name="obst" id="obst">
+            <h3>Gemüse</h3>
+            <select name="gemuse" id="gemuse">
                 <option value="apfel">Apfel </option>
                 <option value="banana">Banana</option>
                 <option value="orange">Orange</option>
             </select>
             <div class="amount-container">
-                <input type="number">
-                <select name="amount" class="amount">
+                <input type="number" class="amount-number">
+                <select name="amount" class="amount-unit">
                     <option value="stk">Stück</option>
                     <option value="kg">Kilogramm</option>
                 </select>
             </div>
-            <input type="button" value="ADD TO LIST">
+            <input type="button" value="ADD TO LIST" onclick="addList('gemuse',2)">
         </article>
     </section>
 
@@ -73,6 +75,7 @@
             <p>Unit</p>
         </article>
     </section>
+
 
     <script src="assets/js/main.js"></script>
 
