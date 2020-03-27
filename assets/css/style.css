@@ -6,7 +6,7 @@ body {
 }
 #horizontal-menu {
       /* AB Farbe angepasst */
-    background-color:rgb(84, 194, 119);
+    background-color:#014945;
     padding: 2%;
     display: grid;
     grid-template-columns: 45% 45% 45%;
@@ -18,12 +18,11 @@ body {
     width: 80%;
     flex-direction: column;
       /* AB Farbe + Rahmen angepasst */
-    background-color: #ffffff ;
     border-radius: 10px;
 }
 /* AB H3 Style hinzugefügt */
 h3{
-    color: #f7aa04;
+    color: #eba72f;
     margin: 5% auto 5% auto;
     width: 80%;
     text-align: center;
@@ -38,6 +37,8 @@ h3{
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
     padding-left: 2%;
+    background-color: #fbeae7;
+    color: #112041;
 }
 .category img {
     /* AB Margin angepasst */
@@ -48,15 +49,19 @@ h3{
     box-shadow: 0 0 5px black;
 }
 .category input{
-    border: 1px solid grey;
+    border: 1px solid #b6abaa;
 }
 
 /* SELECT FIELD - PIECES / WEIGHT */
 .category select {
-    border: 1px solid grey;
+    border: 1px solid #b6abaa;
     display: block;
     margin: 0 auto;
     width: 60%;
+    background-color: #fbeae7;
+    color: #112041;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
 }
 
 /* INPUT FIELD - #PIECES */
@@ -65,33 +70,43 @@ h3{
     width: 50%;
     border-radius: 5px;
     margin: 3% auto;
-    border-color:grey;
+    border-color:#b6abaa;
     display: block;
     padding-left: 5%;
+    background-color: #fbeae7;
+    color: #112041;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
 }
 
 /* ADD TO LIST BUTTON */
 .category input[type=button] {
     width: fit-content;
     margin: 0 auto;
-    border: 0.5px solid grey;
+    border: 0.5px solid #b6abaa;
     border-radius: 5px;
-    background-color: #f7aa04;
+    background-color: #eba72f;
     margin: 3% auto;
-    color: #ffffff;
+    color: #fbeae7 ;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
 }
 #list {
     /* AB Farbe angepasst */
-        background-color: rgb(69, 145, 167);
+        background-color: #fd635b;
     padding-top: 3%;
     border-top: 1px solid black;
+    color: #fbeae7; 
 }
 #list-table {
     display: grid;
     grid-template-columns: 10% 50% 20% 20%;
 }
 #list-table p {
-    border: 1px solid black;
+    border: 1px solid #c9301b;
     margin: 0;
     text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: smaller;
+    letter-spacing: 1px;
 }
