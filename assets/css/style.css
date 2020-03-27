@@ -4,7 +4,7 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 #horizontal-menu {
-    background-color:#00E94A;
+    background-color:#FFFFED;
     padding: 2%;
     display: grid;
     grid-template-columns: 60% 60% 60% 60%;
@@ -15,7 +15,7 @@ body {
 .category{
     display: flex;
     flex-direction: column;
-    background-color: #FF8D19;
+    background-color: #00B32D;
     box-shadow: 0 0 8px black;
     border-radius: 8px;
 }
@@ -26,13 +26,14 @@ body {
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 0 5px black;
-    background-color: white;
+    background-color: #FFFFED;
 }
 .category h3 {
     margin: 1%;
     text-align: center;
     font-size: 1.5rem;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Abril Fatface';
+    color:#862d59;
 
 }
 .category input{
@@ -42,7 +43,7 @@ body {
 }
 
 #obst, #milk, #drink, #meat {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -65,10 +66,11 @@ body {
     margin: 0 auto;
     border-radius: 5px;
     margin-bottom: 3%;
+    background-color: rgb(228, 142, 185);
+    padding: 2% 4%;
 }
 #list {
     display: none;
-    background-color: #01BAEF;
     padding-top: 3%;
     border-top: 1px solid black;
 }
@@ -77,9 +79,11 @@ body {
     grid-template-columns: 10% 50% 20% 20%;
 }
 #list-table p {
-    border: 1px solid black;
+    color: #D98CB3;
+    border: 1px solid white;
     margin: 0;
     text-align: center;
+    background-color: #EFF1F4;
 }
 
 
@@ -101,6 +105,7 @@ body {
     margin: 3% 2%;
     padding-bottom: 1%;
     border-bottom: 1px solid black;
+
   }
   
   .logo img {
